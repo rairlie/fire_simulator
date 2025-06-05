@@ -1,0 +1,9 @@
+services:
+  fire_simulator:
+    build: .
+    container_name: fire_simulator
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: python simulate_fire.py
+    restart: "no"

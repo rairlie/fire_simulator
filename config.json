@@ -1,0 +1,22 @@
+{
+  "n_simulations": 1000,
+  "initial_capital": 1000000,
+
+  "start_age": 48,
+  "end_age": 80,
+  "reduced_spending_age": 70,
+
+  "full_withdrawal": 50000,
+  "reduced_withdrawal": 40000,
+
+  "inheritance_age": 60,
+  "inheritance_amount": 125000,
+
+  "pension_start_age": 68,
+  "state_pension_income": 11500,
+
+  "vwrp_mean": 0.07,
+  "vwrp_std": 0.15,
+  "sixty40_mean": 0.05,
+  "sixty40_std": 0.10
+}
