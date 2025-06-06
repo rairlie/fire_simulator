@@ -1,5 +1,5 @@
 {
-  "n_simulations": 1000,
+  "n_simulations": 10000,
   "initial_capital": 1000000,
 
   "start_age": 48,
@@ -15,8 +15,26 @@
   "pension_start_age": 68,
   "state_pension_income": 11500,
 
-  "vwrp_mean": 0.07,
-  "vwrp_std": 0.15,
-  "sixty40_mean": 0.05,
-  "sixty40_std": 0.10
+  "portfolios": [
+      {
+          "name": "100% Eq",
+          "real_return": 0.055,
+          "std": 0.15
+      },
+      {
+          "name": "60/40",
+          "real_return": 0.04,
+          "std": 0.1
+      },
+      {
+          "name": "40/60",
+          "real_return": 0.03,
+          "std": 0.07
+      },
+      {
+          "name": "20/80",
+          "real_return": 0.02,
+          "std": 0.05
+      }
+  ]
 }

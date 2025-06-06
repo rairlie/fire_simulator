@@ -1,6 +1,6 @@
 # FIRE Monte Carlo simulator
 
-Simulates outcomes of VWRP and 60/40 equity/bond mix over period with following params:
+Simulates outcomes of portfolios over period with following params:
 
  * Yearly withdrawal amount is constant, reducing at a fixed age
  * Inheritance occurs as lump sum at fixed age
